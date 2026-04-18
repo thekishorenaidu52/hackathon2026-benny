@@ -1,0 +1,142 @@
+[
+  {
+    "ticket_id": "TKT-001",
+    "action_taken": "ISSUE_REFUND",
+    "confidence": 0.95,
+    "reasoning": "The customer, a VIP, reported that the headphones stopped working within a week of purchase, indicating a defective product. The request is within the 30-day return window from the delivery date (delivery on 2024-02-14, return deadline 2024-03-15). The product notes explicitly allow returns for defective items even if the seal is broken. The refund amount ($129.99) is below the $200 escalation threshold. Given the VIP status and clear eligibility for a refund for a defective product, issuing a full refund is appropriate.",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-002",
+    "action_taken": "ESCALATE",
+    "confidence": 0.95,
+    "reasoning": "The customer wants to return a smart watch (order ORD-1002) for a refund. However, the ORDER DATA shows 'Order not found' for ORD-1002. Without verifying the order details, delivery date, or product information, the automated agent cannot determine eligibility for a return or refund under the standard return policy. A human agent is required to investigate the 'Order not found' error and locate the correct order information to proceed with the request. The customer's total spent ($210) also slightly exceeds the $200 threshold for direct refund issuance, adding another layer for escalation if the order value is indeed high.",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-004",
+    "action_taken": "ESCALATE",
+    "confidence": 0.9,
+    "reasoning": "The customer claims to have received the wrong size for order ORD-1004 and is demanding a resolution (correct size or refund) immediately, threatening a bank dispute. Crucially, the system reports 'No order found' for the provided order ID (ORD-1004). Without verifiable order data, an automated agent cannot confirm the order details, item, price, or eligibility for a refund/replacement. This critical lack of information prevents any automated resolution, including issuing a refund or processing a replacement. Furthermore, the customer's explicit threat of a bank dispute, coupled with a past chargeback history (even if resolved in ShopWave's favor), warrants immediate human intervention to prevent further escalation and potential financial impact. The request for a 'correct size' also leans towards a replacement, which often requires human handling when standard order processes fail.",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-003",
+    "action_taken": "ESCALATE",
+    "confidence": 0.9,
+    "reasoning": "The customer, a premium member, is reporting a defect with their BrewMaster coffee maker and is requesting a replacement or refund. However, no order data was found in the system for 'ORD-1003' or the customer's email, which prevents verification of purchase, delivery date, or eligibility under the standard return policy (30 days, proof of purchase). Since this involves a potential warranty claim (defect), missing crucial order information, and the customer's VIP status, it requires human intervention to investigate further and obtain the necessary purchase details.",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-006",
+    "action_taken": "SEND_REPLY",
+    "confidence": 1.0,
+    "reasoning": "The customer wants to cancel an order, but no order associated with frank.osei@email.com or customer ID C006 was found in the provided data. To proceed, more information is needed from the customer to locate the correct order.",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-007",
+    "action_taken": "ESCALATE",
+    "confidence": 0.3,
+    "reasoning": "Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 54.232732903s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 54\n}\n]",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-005",
+    "action_taken": "ESCALATE",
+    "confidence": 0.9,
+    "reasoning": "The customer, Emma Collins (C005), is a VIP customer with a pre-approved standing exception for extended return windows, as noted in her customer profile. This means she is eligible to return the items despite potentially being past the standard return period. However, the order 'ORD-1005' referenced in her request was not found in the provided ORDER DATA. The autonomous agent cannot proceed with a refund or return without verified order details (items, prices, purchase date). Therefore, human intervention is required to locate the order and facilitate the return process for this high-value customer.",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-008",
+    "action_taken": "ESCALATE",
+    "confidence": 0.3,
+    "reasoning": "Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 49.441711883s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 49\n}\n]",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-009",
+    "action_taken": "ESCALATE",
+    "confidence": 0.3,
+    "reasoning": "Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 48.322951082s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 48\n}\n]",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-010",
+    "action_taken": "ESCALATE",
+    "confidence": 0.3,
+    "reasoning": "Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 44.992884512s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 44\n}\n]",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-011",
+    "action_taken": "ESCALATE",
+    "confidence": 0.3,
+    "reasoning": "Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 43.877105125s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 43\n}\n]",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-012",
+    "action_taken": "ESCALATE",
+    "confidence": 0.3,
+    "reasoning": "Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 40.521180463s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 40\n}\n]",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-013",
+    "action_taken": "ESCALATE",
+    "confidence": 0.3,
+    "reasoning": "Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 39.408874037s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 39\n}\n]",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-014",
+    "action_taken": "ESCALATE",
+    "confidence": 0.3,
+    "reasoning": "Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 36.043823409s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 36\n}\n]",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-015",
+    "action_taken": "ESCALATE",
+    "confidence": 0.3,
+    "reasoning": "Agent error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 34.927014479s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 34\n}\n]",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-016",
+    "action_taken": "SEND_REPLY",
+    "confidence": 1.0,
+    "reasoning": "The customer is requesting a refund, but neither customer data nor order data could be found using the provided email. To proceed with the request, more information (such as an order number or the correct email associated with the order) is required from the customer.",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-017",
+    "action_taken": "ESCALATE",
+    "confidence": 0.95,
+    "reasoning": "The customer is requesting a refund for order ORD-9999 and has included threatening language ('My lawyer will be in touch if this isn't resolved today'). The order data indicates 'Order not found' for ORD-9999, meaning the system cannot process or verify the refund eligibility. Additionally, the customer's notes indicate a history of chargeback disputes. Due to the threatening language, the inability to locate the order, and the customer's history, this situation requires human intervention to investigate the order number and appropriately handle the legal threat.",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-018",
+    "action_taken": "ESCALATE",
+    "confidence": 0.9,
+    "reasoning": "The customer, Bob Mendes (C002), is requesting a refund for order ORD-1002, which amounts to $249.99. While the item (PulseX Smart Watch, P006) is returnable and appears to be within its 15-day return window (delivered on 2024-03-04, return deadline 2024-03-19), the refund amount of $249.99 exceeds the $200 threshold for automatic refunds, which requires escalation as per policy. Additionally, the customer claims to be a 'premium member' entitled to 'instant refunds without questions,' but customer data clearly indicates their tier is 'standard'. A specialist should handle this refund request, addressing the refund eligibility and clarifying the customer's membership status.",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-019",
+    "action_taken": "SEND_REPLY",
+    "confidence": 1.0,
+    "reasoning": "The customer is asking general questions about the return policy for electronics and whether exchanges are offered. No specific order or product is involved. The request requires providing information based on existing policies.",
+    "status": "resolved"
+  },
+  {
+    "ticket_id": "TKT-020",
+    "action_taken": "SEND_REPLY",
+    "confidence": 1.0,
+    "reasoning": "The customer's email states 'the thing i bought isnt working right' but provides no specific order ID or product details. The system also returned 'No order found' and 'No product found'. To assist James Wu, we need to gather more information about his purchase.",
+    "status": "resolved"
+  }
+]
