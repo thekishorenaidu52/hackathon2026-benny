@@ -70,6 +70,10 @@ Explainability: Every decision logged with full reasoning, confidence score, and
 
 ## Biggest Challenge
 Getting the agent to handle concurrent processing while respecting API rate limits. Solved by limiting max_workers to 2 and adding delays between requests.
+
+## DEMO VIDEO LINK 
+LINK : https://drive.google.com/file/d/1bEC29vaSmf86QdGQlCauqbrLx2_6F367/view?usp=drive_link
+
 ## Author
 Benny (thekishorenaidu52)
 Ksolves Agentic AI Hackathon 2026
